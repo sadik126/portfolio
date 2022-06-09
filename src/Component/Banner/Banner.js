@@ -57,6 +57,26 @@ const Banner = () => {
 
                 {/* blur div  */}
                 <div className='blur' style={{ background: "#c7af85" }}></div>
+                <div
+                    className="blur"
+                    style={{
+                        background: "#49788f",
+                        top: "17rem",
+                        width: "21rem",
+                        height: "11rem",
+                        left: "-9rem",
+                    }}
+                ></div>
+                <div
+                    className="blur"
+                    style={{
+                        background: "#c990af",
+                        top: "-5rem",
+                        width: "11rem",
+                        height: "11rem",
+                        left: "-19rem",
+                    }}
+                ></div>
             </div>
 
         </div>
