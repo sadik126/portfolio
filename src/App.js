@@ -7,10 +7,18 @@ import Service from './Component/Service/Service';
 import Experience from './Component/Experience/Experience';
 import Portfolio from './Component/Portfolio/Portfolio';
 import Header from './Component/Header/Header';
+import { useContext } from "react";
+import { themeContext } from "./Context";
 
 function App() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className='App'>
+    <div className='App'
+      style={{
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}>

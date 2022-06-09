@@ -1,6 +1,8 @@
 import React from 'react';
 import Awsome from '../Awsome/Awsome';
 import Banner from '../Banner/Banner';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Portfolio from '../Portfolio/Portfolio';
 import Projectsnumber from '../Projectsnumber/Projectsnumber';
@@ -18,6 +20,8 @@ const Home = () => {
             <Works></Works>
             <Portfolio></Portfolio>
             <Reviews></Reviews>
+            <Contact></Contact>
+            <Footer></Footer>
 
         </div>
     );

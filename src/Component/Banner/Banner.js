@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Banner.css'
 import github from '../../img/github.png';
 import linkdin from '../../img/linkedin.png'
@@ -10,13 +10,16 @@ import thumbup from '../../img/thumbup.png'
 import glasses from '../../img/glassesimoji.png';
 import crown from '../../img/crown.png';
 import Floating from '../Floating/Floating';
+import { themeContext } from '../../Context';
 
 const Banner = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className='intro'>
             <div className="left">
                 <div className="name">
-                    <span>Hi , I Am </span>
+                    <span style={{ color: darkMode ? "white" : "" }}>Hi , I Am </span>
                     <span>Rayhan sadik</span>
                     <span> Frontend Developer with high level of experience in web designing
                         and development, producting the Quality work</span>
@@ -48,7 +51,7 @@ const Banner = () => {
                 <img src={vector2} alt="" />
                 <img src={boy} alt="" />
                 <img src={glasses} alt="" />
-                <div style={{ top: '-4%', left: '68%' }}>
+                <div className='developer' >
                     <Floating img={crown} txt1='web' txt2='developer'></Floating>
                 </div>
                 <div style={{ top: '18rem', left: '0rem' }} >
