@@ -9,16 +9,20 @@ import Portfolio from './Component/Portfolio/Portfolio';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Home></Home>}>
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<Home></Home>}>
 
 
 
-      </Route>
-      <Route path='/service' element={<Service></Service>}></Route>
-      <Route path='/experience' element={<Experience></Experience>}></Route>
-      <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
-    </Routes>
+        </Route>
+        <Route path='/service' element={<Service></Service>}></Route>
+        <Route path='/experience' element={<Experience></Experience>}></Route>
+        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
+      </Routes>
+
+    </div>
+
   );
 }
 
