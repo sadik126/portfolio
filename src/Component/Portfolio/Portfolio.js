@@ -5,6 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import tools from '../../img/tools.PNG';
 import book from '../../img/book.PNG';
 import wild from '../../img/wild.PNG';
+import egrocery from '../../img/egrocery.PNG';
+import mobile from '../../img/mobile bazar.PNG';
+import ucl from '../../img/ucl.PNG'
 import "swiper/css";
 
 const Portfolio = () => {
@@ -14,7 +17,14 @@ const Portfolio = () => {
             <span>Recent projects</span>
             <span>Portfolio</span>
 
-            <Swiper>
+            <Swiper
+                spaceBetween={30}
+                slidesPerView={3}
+                grabCursor={true}
+                className="portfolio-slider"
+
+
+            >
                 <SwiperSlide>
                     <img src={tools} alt="" />
                 </SwiperSlide>
@@ -23,6 +33,15 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={wild} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={egrocery} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={mobile} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={ucl} alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>
