@@ -9,5 +9,7 @@ ul>li {
 
 .navbar .navbar-nav .nav-link:hover {
     cursor: pointer;
-    color: rgb(180, 59, 59);
+    background-color: rgb(180, 59, 59);
+    color: black;
+    border-radius: 10px;
 }

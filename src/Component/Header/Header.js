@@ -20,10 +20,10 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0" >
                         <li class="nav-item me-2">
-                            <Link class="nav-link " style={{ color: darkMode ? "white" : "" }} aria-current="page" to="/">Home</Link>
+                            <a class="nav-link " style={{ color: darkMode ? "white" : "" }} aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item me-2">
-                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="/service">Service</Link>
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="/service">Service</a>
                         </li>
                         <li class="nav-item me-2">
                             <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="/experience">Experience</Link>
