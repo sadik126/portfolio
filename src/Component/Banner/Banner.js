@@ -60,7 +60,7 @@ const Banner = () => {
                 <div
                     className="blur"
                     style={{
-                        background: "#49788f",
+                        background: "#7291a1",
                         top: "17rem",
                         width: "21rem",
                         height: "11rem",
