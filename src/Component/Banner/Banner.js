@@ -11,8 +11,10 @@ import glasses from '../../img/glassesimoji.png';
 import crown from '../../img/crown.png';
 import Floating from '../Floating/Floating';
 import { themeContext } from '../../Context';
+import { motion } from 'framer-motion';
 
 const Banner = () => {
+    const transition = { duration: 2, type: 'spring' }
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
@@ -50,13 +52,25 @@ const Banner = () => {
                 <img src={vector1} alt="" />
                 <img src={vector2} alt="" />
                 <img src={boy} alt="" />
-                <img src={glasses} alt="" />
-                <div className='developer' >
+                <motion.img
+                    initial={{ left: "-56%" }}
+                    whileInView={{ left: "-24%" }}
+                    transition={transition}
+                    src={glasses} alt="" />
+                <motion.div
+                    initial={{ top: '-4%', left: '74%' }}
+                    whileInView={{ left: '68%' }}
+                    transition={transition}
+                    className='developer' >
                     <Floating img={crown} txt1='web' txt2='developer'></Floating>
-                </div>
-                <div style={{ top: '18rem', left: '0rem' }} >
+                </motion.div>
+                <motion.div
+                    initial={{ left: "9rem", top: "18rem" }}
+                    whileInView={{ left: "0rem" }}
+                    transition={transition}
+                    style={{ top: '18rem', left: '0rem' }} >
                     <Floating img={thumbup} txt1='best' txt2='designer'></Floating>
-                </div>
+                </motion.div>
 
                 {/* blur div  */}
                 <div className='blur' style={{ background: "#c7af85" }}></div>

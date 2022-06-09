@@ -42,6 +42,19 @@
     box-shadow: var(--boxShadow);
 }
 
+.circle::after {
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(to bottom, #FF4331 0%, #D31A50 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var(--boxShadow);
+}
+
 .achivement span:nth-of-type(2) {
     color: orangered;
 }

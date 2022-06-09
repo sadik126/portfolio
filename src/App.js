@@ -9,6 +9,7 @@ import Portfolio from './Component/Portfolio/Portfolio';
 import Header from './Component/Header/Header';
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import Projects from './Component/Projects/Projects';
 
 function App() {
   const theme = useContext(themeContext);
@@ -28,7 +29,7 @@ function App() {
         </Route>
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/experience' element={<Experience></Experience>}></Route>
-        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
+        <Route path='/projects' element={<Projects></Projects>}></Route>
       </Routes>
 
     </div>

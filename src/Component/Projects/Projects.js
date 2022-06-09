@@ -1,15 +1,13 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
-const Service = () => {
+const Projects = () => {
     return (
         <div>
             <Header></Header>
-
 
         </div>
     );
 };
 
-export default Service;
+export default Projects;
