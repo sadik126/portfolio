@@ -1,5 +1,15 @@
 import React from 'react';
 import './Banner.css'
+import github from '../../img/github.png';
+import linkdin from '../../img/linkedin.png'
+import instagram from '../../img/instagram.png'
+import vector1 from '../../img/Vector1.png';
+import vector2 from '../../img/Vector2.png';
+import boy from '../../img/sadik.png';
+import thumbup from '../../img/thumbup.png'
+import glasses from '../../img/glassesimoji.png';
+import crown from '../../img/crown.png';
+import Floating from '../Floating/Floating';
 
 const Banner = () => {
     return (
@@ -13,9 +23,40 @@ const Banner = () => {
                 </div>
                 <button className='button hire'>Hire me</button>
 
+                <div className="icons" style={{ cursor: 'pointer' }}>
+                    <a href="">
+                        <img src={github} alt="" />
+                    </a>
+
+                    <a href="">
+                        <img src={linkdin} alt="" />
+
+                    </a>
+                    <a href="
+                    ">
+                        <img src={instagram} alt="" />
+
+                    </a>
+
+
+
+                </div>
+
             </div>
             <div className="right">
-                i am right
+                <img src={vector1} alt="" />
+                <img src={vector2} alt="" />
+                <img src={boy} alt="" />
+                <img src={glasses} alt="" />
+                <div style={{ top: '-4%', left: '68%' }}>
+                    <Floating img={crown} txt1='web' txt2='developer'></Floating>
+                </div>
+                <div style={{ top: '18rem', left: '0rem' }} >
+                    <Floating img={thumbup} txt1='best' txt2='designer'></Floating>
+                </div>
+
+                {/* blur div  */}
+                <div className='blur' style={{ background: "#c7af85" }}></div>
             </div>
 
         </div>

@@ -9,10 +9,12 @@
     flex: 1;
     position: relative;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .right {
     flex: 1;
+    position: relative;
 }
 
 .name {
@@ -36,4 +38,67 @@
     color: gray;
     font-weight: 100;
     font-size: 14px;
+    margin-top: 10px;
+}
+
+.hire {
+    width: 6rem;
+    font: 2rem;
+}
+
+.icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.icons>* {
+    transform: scale(0.5);
+
+}
+
+.right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.right> :nth-child(1) {
+    transform: scale(0.70);
+    left: -15%;
+    top: -9%;
+}
+
+.right> :nth-child(2) {
+    transform: scale(0.67);
+    left: -5.5%;
+    top: -5rem;
+}
+
+.right> :nth-child(3) {
+    transform: scale(1.2);
+    left: 31%;
+    top: -5.8rem;
+
+}
+
+.right> :nth-child(4) {
+    transform: scale(0.6);
+    left: -13%;
+    top: -19%;
+    border-radius: 50%;
+    padding: 0;
+
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
 }
