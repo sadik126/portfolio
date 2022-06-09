@@ -6,10 +6,12 @@ import Home from './Component/Home/Home';
 import Service from './Component/Service/Service';
 import Experience from './Component/Experience/Experience';
 import Portfolio from './Component/Portfolio/Portfolio';
+import Header from './Component/Header/Header';
 
 function App() {
   return (
     <div className='App'>
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}>
 
