@@ -11,21 +11,21 @@ const Projectsnumber = () => {
                 <div className="circle" style={{ color: darkMode ? 'var(--orange)' : '' }}>
                     4+
                 </div>
-                <span>years</span>
+                <span style={{ color: darkMode ? 'white' : '' }}>years</span>
                 <span>Experience</span>
             </div>
             <div className="achivement">
                 <div className="circle" style={{ color: darkMode ? 'var(--orange)' : '' }}>
                     20+
                 </div>
-                <span>Completed</span>
+                <span style={{ color: darkMode ? 'white' : '' }}>Completed</span>
                 <span>Projects</span>
             </div>
             <div className="achivement">
                 <div className="circle" style={{ color: darkMode ? 'var(--orange)' : '' }}>
                     2+
                 </div>
-                <span>Companies</span>
+                <span style={{ color: darkMode ? 'white' : '' }}>Companies</span>
                 <span>Work</span>
 
             </div>

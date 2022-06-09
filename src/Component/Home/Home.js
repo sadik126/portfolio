@@ -13,7 +13,7 @@ import Works from '../Works/Works';
 const Home = () => {
     return (
         <div>
-
+            <Header></Header>
             <Banner></Banner>
             <Awsome></Awsome>
             <Projectsnumber></Projectsnumber>

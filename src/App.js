@@ -19,7 +19,7 @@ function App() {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
       }}>
-      <Header></Header>
+
       <Routes>
         <Route path='/' element={<Home></Home>}>
 

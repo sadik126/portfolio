@@ -45,3 +45,9 @@
 .achivement span:nth-of-type(2) {
     color: orangered;
 }
+
+@media screen and (max-width: 480px) {
+    .experience {
+        transform: scale(0.7);
+    }
+}

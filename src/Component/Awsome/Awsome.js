@@ -30,7 +30,7 @@ const Awsome = () => {
 
             {/* right */}
             <div className="cards">
-                <div style={{ left: '12rem' }}>
+                <div className='heart' style={{ left: '12rem' }}>
                     <Servicecard emoji={heart} heading={'Design'} detail={'Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd'}></Servicecard>
                 </div>
 

@@ -1,11 +1,13 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 const Service = () => {
     return (
         <div>
             <Header></Header>
-            this is service
+
+            <Footer></Footer>
         </div>
     );
 };
