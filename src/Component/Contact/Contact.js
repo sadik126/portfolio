@@ -2,6 +2,7 @@ import React, { useContext, useRef, useState } from 'react';
 import './Contact.css';
 import emailjs from "@emailjs/browser";
 import { themeContext } from '../../Context';
+import web from '../../img/web development.png';
 
 const Contact = () => {
     const theme = useContext(themeContext);
@@ -32,15 +33,17 @@ const Contact = () => {
     return (
         <div className="contact-form" id="contact">
             {/* left side copy and paste from work section */}
-            <div className="w-left">
-                <div className="awsome">
+            <div className="w-left ">
+                <div className="awsome d-flex flex-row">
                     {/* darkMode */}
+
                     <span style={{ color: darkMode ? 'white' : '' }}>Get in Touch</span>
                     <span>Contact me</span>
                     <div
                         className="blur s-blur1"
                         style={{ background: "#ABF1FF94" }}
-                    ></div>
+                    > </div>
+                    <img src={web} style={{ width: "200px" }} alt="" />
                 </div>
             </div>
             {/* right side form */}

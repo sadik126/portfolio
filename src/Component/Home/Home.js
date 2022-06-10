@@ -2,6 +2,7 @@ import React from 'react';
 import Awsome from '../Awsome/Awsome';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
+import Features from '../Features/Features';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Portfolio from '../Portfolio/Portfolio';
@@ -16,6 +17,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Awsome></Awsome>
+            <Features></Features>
             <Projectsnumber></Projectsnumber>
             <Works></Works>
             <Portfolio></Portfolio>

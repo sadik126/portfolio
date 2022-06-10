@@ -26,10 +26,10 @@ const Header = () => {
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="/service">Service</a>
                         </li>
                         <li class="nav-item me-2">
-                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="/experience">Experience</Link>
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="/experience">Experience</a>
                         </li>
                         <li class="nav-item me-2">
-                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="/projects">Projects</Link>
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="/projects">Projects</a>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="contact" spy={true} smooth={true}><button className="button n-button">   Contact</button></Link>
