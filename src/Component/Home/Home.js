@@ -1,4 +1,5 @@
 import React from 'react';
+import Allprojects from '../Allprojects/Allprojects';
 import Awsome from '../Awsome/Awsome';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
@@ -21,6 +22,7 @@ const Home = () => {
             <Projectsnumber></Projectsnumber>
             <Works></Works>
             <Portfolio></Portfolio>
+            <Allprojects></Allprojects>
             <Reviews></Reviews>
             <Contact></Contact>
             <Footer></Footer>

@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { themeContext } from '../../Context';
+import arrow from '../../img/coding.png'
 
 const Card = (props) => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <>
-            <div className='box btn_shadow mb-5'>
-                <img src={props.image} alt='' />
-                <h2>{props.title}</h2>
-                <p>{props.desc}</p>
+            <div className='box btn_shadow mb-5 d-flex flex-column'  >
+                <img src={props.image} width="120" height="100" alt='' />
+                <h2 style={{ fontSize: '1rem' }}>{props.title}</h2>
+                <p style={{ fontSize: '16px' }}>{props.desc}</p>
                 <a href='/'>
-                    <i className='fas fa-arrow-right'></i>
+                    {/* <i className='fas fa-arrow-right'></i> */}
+                    {/* <img src={arrow} alt="" /> */}
                 </a>
             </div>
             {/* <div class="card" style="width: 100%;">
