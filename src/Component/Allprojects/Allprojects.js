@@ -7,7 +7,9 @@ const Allprojects = () => {
         {
             id: 1,
             category: "Photography website",
-            dis: " A photography website with multiple use Support crud operations of many service User can book their service ",
+            dis: " A photography website with multiple use   ",
+            dis1: " Support crud operations of many service ",
+            dis2: "User can book their service",
 
             title: "WILD STUDIO ",
             image: "https://i.ibb.co/R4bbRvN/wildfull.png",
@@ -15,6 +17,9 @@ const Allprojects = () => {
         {
             id: 2,
             category: "Book Shop website",
+            dis: " A photography website with multiple user  ",
+            dis1: "Support crud operations of many service",
+            dis2: "User can book their service ",
 
             title: "BOOK LOVER",
             image: "https://i.ibb.co/JcnbRnq/1c666e8b-8a5d-417b-9a4b-742b9de9e6ad.png",
@@ -22,6 +27,7 @@ const Allprojects = () => {
         {
             id: 3,
             category: "Tools website",
+            dis: " A photography website with multiple use Support crud operations of many service User can book their service ",
 
             title: "TOOLS WORLD  ",
             image: "https://i.ibb.co/hXqg44X/React-App.png",
@@ -41,7 +47,7 @@ const Allprojects = () => {
 
                     <div className='content grid'>
                         {Portfolio_data.map((value, index) => {
-                            return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+                            return <Card key={index} image={value.image} dis={value.dis} dis1={value.dis1} dis2={value.dis2} category={value.category} totalLike={value.totalLike} title={value.title} />
                         })}
 
                         {/*<div className='box btn_shadow '>

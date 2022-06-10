@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Modal from 'react-modal';
 
 const Card = (props) => {
     const [modal, setModal] = useState(false)
@@ -11,6 +12,33 @@ const Card = (props) => {
         document.body.classList.add("active-modal")
     } else {
         document.body.classList.remove("active-modal")
+    }
+
+    const customStyles = {
+        content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)',
+        },
+    };
+
+    let subtitle;
+    const [modalIsOpen, setIsOpen] = React.useState(false);
+
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function afterOpenModal() {
+        // references are now sync'd and can be accessed.
+        subtitle.style.color = '#f00';
+    }
+
+    function closeModal() {
+        setIsOpen(false);
     }
     return (
         <>
@@ -30,10 +58,11 @@ const Card = (props) => {
                         <i class='fas fa-arrow-right'></i>
                     </a>
                 </div>
+                <button onClick={openModal} className='button'>Show Details</button>
             </div>
 
             {/* Popup box */}
-            {modal && (
+            {/* {modal && (
                 <div className='modal'>
                     <div onClick={toggleModal} className='overlay'></div>
                     <div className='modal-content d_flex'>
@@ -59,7 +88,48 @@ const Card = (props) => {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
+
+
+
+            <Modal
+                isOpen={modalIsOpen}
+                onAfterOpen={afterOpenModal}
+                onRequestClose={closeModal}
+                style={customStyles}
+                contentLabel="Example Modal"
+            >
+                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{props.title} <button className="btn btn-danger" onClick={closeModal} style={{ marginLeft: '140px' }}>X</button></h2>
+
+
+                <div className="d-flex justify-content-center">
+                    <div style={{ width: "50%" }}>
+                        <img src={props.image} className="img-fluid" width='100px' alt='' onClick={toggleModal} />
+                    </div>
+                    <div style={{ width: "50%" }}>
+
+                        <ul>
+                            <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis}</li>
+                            <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis1}</li>
+                        </ul>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                {/* <form>
+                    <input />
+                    <button>tab navigation</button>
+                    <button>stays</button>
+                    <button>inside</button>
+                    <button>the modal</button>
+                </form> */}
+            </Modal>
+
         </>
     )
 }
