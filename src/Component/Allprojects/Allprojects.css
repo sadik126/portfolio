@@ -61,16 +61,16 @@
 }
 
 .Portfolio .box:hover h2 {
-    color: #ff014f;
+    color: #ff4501;
 }
 
 .Portfolio .box:hover {
-    color: black;
+    color: rgb(58, 57, 57);
 }
 
 /*------------popup--------*/
 body.active-modal {
-    overflow-y: hidden;
+    overflow-y: block;
 }
 
 .btn-modal {
@@ -93,7 +93,7 @@ body.active-modal {
 }
 
 .overlay {
-    background-color: #ecf0f3;
+    background-color: #53a1dc;
 }
 
 .modal-content {
@@ -101,7 +101,7 @@ body.active-modal {
     top: 12%;
     left: 8%;
     line-height: 1.4;
-    background: #f0f3f5;
+    background: #1b4b6b;
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 85%;

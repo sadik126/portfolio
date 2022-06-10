@@ -6,46 +6,27 @@ const Allprojects = () => {
     const Portfolio_data = [
         {
             id: 1,
-            category: "DEVELOPMENT",
-            totalLike: "600",
-            title: "The services provide for design ",
-            image: "https://ibb.co/mFTTfD0",
+            category: "Photography website",
+            dis: " A photography website with multiple use Support crud operations of many service User can book their service ",
+
+            title: "WILD STUDIO ",
+            image: "https://i.ibb.co/R4bbRvN/wildfull.png",
         },
         {
             id: 2,
-            category: "APPLICATION",
-            totalLike: "750",
-            title: "Mobile app landing design & maintain",
-            image: "./image/ecommerce.png",
+            category: "Book Shop website",
+
+            title: "BOOK LOVER",
+            image: "https://i.ibb.co/JcnbRnq/1c666e8b-8a5d-417b-9a4b-742b9de9e6ad.png",
         },
         {
             id: 3,
-            category: "PHOTOSHOP",
-            totalLike: "630",
-            title: "Logo design creativity & Application ",
-            image: "./image/ecommerce.png",
-        },
-        {
-            id: 4,
-            category: "FIGMA",
-            totalLike: "360",
-            title: "Mobile app landing design & Services",
-            image: "./image/ecommerce.png",
-        },
-        {
-            id: 5,
-            category: "WEB DESIGN",
-            totalLike: "280",
-            title: "Design for tecnology & services",
-            image: "./image/ecommerce.png",
-        },
-        {
-            id: 6,
-            category: "WEB DESIGN",
-            totalLike: "690",
-            title: "App for tecnology & services",
-            image: "./image/ecommerce.png",
-        },
+            category: "Tools website",
+
+            title: "TOOLS WORLD  ",
+            image: "https://i.ibb.co/hXqg44X/React-App.png",
+        }
+
     ]
 
 

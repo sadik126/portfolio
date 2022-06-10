@@ -10,6 +10,7 @@ import Header from './Component/Header/Header';
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import Projects from './Component/Projects/Projects';
+import Detail from './Component/Detail/Detail';
 
 function App() {
   const theme = useContext(themeContext);
@@ -30,6 +31,7 @@ function App() {
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/experience' element={<Experience></Experience>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
+        <Route path='/projects/:projectID' element={<Detail></Detail>}></Route>
       </Routes>
 
     </div>
