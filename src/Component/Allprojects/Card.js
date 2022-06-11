@@ -16,6 +16,9 @@ const Card = (props) => {
 
     const customStyles = {
         content: {
+            background: 'white',
+            height: '100%',
+            width: '100%',
             top: '50%',
             left: '50%',
             right: 'auto',
@@ -48,15 +51,15 @@ const Card = (props) => {
                 </div>
                 <div className='category d_flex'>
                     <span onClick={toggleModal}>{props.category}</span>
-                    <label>
-                        <i className='far fa-heart'></i> {props.totalLike}
+                    <label style={{ marginLeft: '120px' }}>
+                        <img style={{ width: "50%" }} src="https://img.icons8.com/plasticine/100/undefined/folder-invoices.png" />
                     </label>
                 </div>
                 <div className='title'>
                     <h2 onClick={toggleModal}>{props.title}</h2>
-                    <a href='#popup' className='arrow' onClick={toggleModal}>
-                        <i class='fas fa-arrow-right'></i>
-                    </a>
+                    {/* <a href='#popup' className='arrow' onClick={toggleModal}>
+                        <a target="_blank" href="https://icons8.com/icon/80625/arrow">Arrow icon by Icons8</a>
+                    </a> */}
                 </div>
                 <button onClick={openModal} className='button'>Show Details</button>
             </div>
@@ -99,19 +102,52 @@ const Card = (props) => {
                 style={customStyles}
                 contentLabel="Example Modal"
             >
-                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{props.title} <button className="btn btn-danger" onClick={closeModal} style={{ marginLeft: '140px' }}>X</button></h2>
+                <div className="d-flex justify-content-between flex-row">
+                    <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{props.title} </h2>
+                    <button className="btn btn-danger" onClick={closeModal} style={{ marginLeft: '140px' }}>X</button>
+
+                </div>
 
 
-                <div className="d-flex justify-content-center">
-                    <div style={{ width: "50%" }}>
-                        <img src={props.image} className="img-fluid" width='100px' alt='' onClick={toggleModal} />
+
+                <div className="d-flex justify-content-center align-items-center" style={{ width: '100%' }}>
+                    <div className="container" style={{ width: '50%' }}>
+                        <>
+                            <div className='' style={{ width: '100%' }}>
+                                {/* <img src={props.image} className="img-fluid" width='200px' alt='' onClick={toggleModal} /> */}
+                                <img src={props.image1} className="img-fluid mt-5 border border-dark rounded" width='400px' alt='' onClick={toggleModal} />
+                                <img src={props.image2} className="img-fluid mt-5 border border-dark rounded" width='400px' alt='' onClick={toggleModal} />
+                                <img src={props.image3} className="img-fluid mt-5 border border-dark rounded" width='400px' alt='' onClick={toggleModal} />
+                            </div>
+
+                        </>
                     </div>
-                    <div style={{ width: "50%" }}>
 
-                        <ul>
-                            <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis}</li>
-                            <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis1}</li>
-                        </ul>
+                    <div style={{ width: "50%" }} >
+                        <div >
+                            <div>
+                                <small>{props.description}</small>
+
+                                <ul>
+                                    <li><img src="https://img.icons8.com/material-rounded/24/red/arrow.png" />{props.dis}</li>
+                                    <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis1}</li>
+                                    <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis2}</li>
+                                </ul>
+                                <p> <span style={{ color: 'orangered' }}>Technology Used</span> : HTML, CSS, Bootstrap, React.js, Node.js, Express.js, Mongodb, Firebase</p>
+                            </div>
+
+                            <div className="text-center" style={{ marginTop: '4rem' }}>
+                                <img src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/undefined/external-live-radio-vitaliy-gorbachev-fill-vitaly-gorbachev.png" />
+                                <a href={props.link} style={{ color: '#0089ff', marginLeft: '5px' }}>Visit this</a>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
 
                     </div>
 

@@ -58,7 +58,7 @@ const Banner = () => {
                     transition={transition}
                     src={glasses} alt="" />
                 <motion.div
-                    initial={{ top: '-4%', left: '74%' }}
+                    initial={{ left: '74%' }}
                     whileInView={{ left: '68%' }}
                     transition={transition}
                     className='developer' >
