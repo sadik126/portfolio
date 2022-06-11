@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Allprojects from '../Allprojects/Allprojects';
 import Awsome from '../Awsome/Awsome';
 import Banner from '../Banner/Banner';
@@ -18,6 +19,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Awsome></Awsome>
+            <About></About>
             <Features></Features>
             <Projectsnumber></Projectsnumber>
             <Works></Works>

@@ -23,7 +23,7 @@ const Contact = () => {
             .then(
                 (result) => {
                     console.log(result.text);
-                    <Loading></Loading>
+
                     setDone(true);
                     form.reset();
                 },
@@ -32,6 +32,8 @@ const Contact = () => {
                 }
             );
     };
+
+
     return (
         <div className="contact-form" id="contact">
             {/* left side copy and paste from work section */}
@@ -55,6 +57,7 @@ const Contact = () => {
                     <input type="email" required name="user_email" className="user" placeholder="Email" />
                     <textarea name="message" required className="user" placeholder="Message" />
                     <input type="submit" value="Send" className="button" />
+
 
                     <span>{done && "Thanks for Contacting me"}</span>
                     <div

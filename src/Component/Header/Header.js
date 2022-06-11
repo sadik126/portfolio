@@ -19,17 +19,17 @@ const Header = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0" >
-                        <li class="nav-item me-2">
-                            <a class="nav-link " style={{ color: darkMode ? "white" : "" }} aria-current="page" href="/">Home</a>
+                        <li class="nav-item me-3 py-2">
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} aria-current="page" href="/">Home</a>
                         </li>
-                        <li class="nav-item me-2">
-                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="service" spy={true} smooth={true}>Service</Link>
+                        <li class="nav-item me-3 py-2">
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#service" >Service</a>
                         </li>
-                        <li class="nav-item me-2">
-                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="experience" spy={true} smooth={true}>Experience</Link>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#experience" spy={true} smooth={true}>Experience</a>
                         </li>
-                        <li class="nav-item me-2">
-                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="projects" spy={true} smooth={true}>Projects</Link>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#projects" spy={true} smooth={true}>Projects</a>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="contact" spy={true} smooth={true}><button className="button n-button">   Contact</button></Link>

@@ -16,16 +16,14 @@ const Works = () => {
             <div className="awsome">
                 <span style={{ color: darkMode ? 'white' : '' }}>Works for All these </span>
                 <span>Brands & Clients</span>
-                <spane> Lorem ispum is simpley dummy text of printing of printing Lorem
+                <span>Branding is just as important for your clients as it is for yourself. For first time freelancers,
                     <br />
-                    ispum is simpley dummy text of printingLorem ispum is simpley dummy
-                    text
+                    it can be challenging to lose the collaborative team environment of an agency. Silver lining?
                     <br />
-                    y dummy text of printingLorem
-                    <br />
-                    ispum is simpley dummy text of printing
+                    It’s up to you to set the standard and challenge yourself to deliver outstanding work
 
-                </spane>
+
+                </span>
 
                 {/* <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero a quia inventore!</span> */}
 
