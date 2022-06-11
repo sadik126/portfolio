@@ -23,10 +23,10 @@ const Header = () => {
                             <a class="nav-link " style={{ color: darkMode ? "white" : "" }} aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="service">Service</a>
+                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="service" spy={true} smooth={true}>Service</Link>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="experience">Experience</a>
+                            <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="experience" spy={true} smooth={true}>Experience</Link>
                         </li>
                         <li class="nav-item me-2">
                             <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="projects" spy={true} smooth={true}>Projects</Link>

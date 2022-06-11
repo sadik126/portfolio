@@ -15,7 +15,7 @@ const Portfolio = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className='portfolio'>
+        <div className='portfolio' id='experience'>
 
             <span style={{ color: darkMode ? 'white' : '' }}>Recent projects</span>
             <span>Portfolio</span>

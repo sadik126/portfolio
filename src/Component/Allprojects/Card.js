@@ -1,7 +1,11 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
+import Loading from "../Loading/Loading";
 
 const Card = (props) => {
+    if (props) {
+        <Loading></Loading>
+    }
     const [modal, setModal] = useState(false)
 
     const toggleModal = () => {
@@ -17,6 +21,7 @@ const Card = (props) => {
     const customStyles = {
         content: {
             background: 'white',
+
             height: '100%',
             width: '100%',
             top: '50%',

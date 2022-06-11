@@ -13,12 +13,12 @@ const Awsome = () => {
     const darkMode = theme.state.darkMode;
     const transition = { duration: 3, type: 'spring' }
     return (
-        <div className='services'>
+        <div className='services' id='service'>
             {/* left */}
             <div className="awsome">
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome </span>
                 <span>Services</span>
-                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ducimus neque pariatur? Porro, recusandae non.</span>
+                <span>We build web apps for efficient management of different business activities. We apply smart automation to streamline workflows and integrate corporate systems together for coherent operation. Check our web application development services</span>
                 <br />
                 {/* <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero a quia inventore!</span> */}
                 <a href={resume} download>

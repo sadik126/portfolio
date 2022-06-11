@@ -3,6 +3,7 @@ import './Contact.css';
 import emailjs from "@emailjs/browser";
 import { themeContext } from '../../Context';
 import web from '../../img/web development.png';
+import Loading from '../Loading/Loading';
 
 const Contact = () => {
     const theme = useContext(themeContext);
@@ -22,6 +23,7 @@ const Contact = () => {
             .then(
                 (result) => {
                     console.log(result.text);
+                    <Loading></Loading>
                     setDone(true);
                     form.reset();
                 },
@@ -49,10 +51,11 @@ const Contact = () => {
             {/* right side form */}
             <div className="c-right">
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="user_name" className="user" placeholder="Name" />
-                    <input type="email" name="user_email" className="user" placeholder="Email" />
-                    <textarea name="message" className="user" placeholder="Message" />
+                    <input type="text" required name="user_name" className="user" placeholder="Name" />
+                    <input type="email" required name="user_email" className="user" placeholder="Email" />
+                    <textarea name="message" required className="user" placeholder="Message" />
                     <input type="submit" value="Send" className="button" />
+
                     <span>{done && "Thanks for Contacting me"}</span>
                     <div
                         className="blur c-blur1"

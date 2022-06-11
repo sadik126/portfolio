@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Card from './Card';
 import './Allprojects.css'
+import { themeContext } from '../../Context';
+import Loading from '../Loading/Loading';
 
 const Allprojects = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     const Portfolio_data = [
         {
             id: 1,
@@ -61,10 +65,11 @@ const Allprojects = () => {
                 <div className='container'>
                     <div className='heading text-center '>
                         <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-                        <h1>My Projects</h1>
+                        <h1 style={{ color: darkMode ? "white" : "" }}>My Projects</h1>
                     </div>
 
                     <div className='content grid'>
+
                         {Portfolio_data.map((value, index) => {
                             return <Card key={index} description={value.description} image={value.image} image3={value.image3} image2={value.image2} image1={value.image1} link={value.link} dis={value.dis} dis1={value.dis1} dis2={value.dis2} category={value.category} totalLike={value.totalLike} title={value.title} />
                         })}
