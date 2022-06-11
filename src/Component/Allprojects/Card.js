@@ -126,9 +126,9 @@ const Card = (props) => {
                     <div style={{ width: "50%" }} >
                         <div >
                             <div>
-                                <small>{props.description}</small>
+                                <small className="mb-5">{props.description}</small>
 
-                                <ul>
+                                <ul className="mt-5">
                                     <li><img src="https://img.icons8.com/material-rounded/24/red/arrow.png" />{props.dis}</li>
                                     <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis1}</li>
                                     <li><img src="https://img.icons8.com/material-rounded/24/undefined/arrow.png" />{props.dis2}</li>

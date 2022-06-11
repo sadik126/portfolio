@@ -14,7 +14,7 @@ const Allprojects = () => {
 
             title: "WILD STUDIO ",
             link: "https://wildstudio-1db3d.web.app/",
-            description: "Bookselling is the commercial trading of books which is the retail and distribution end of the publishing process. People who engage in bookselling are called booksellers, bookdealers, bookpeople, bookmen, or bookwomen.",
+
 
             image: "https://i.ibb.co/R4bbRvN/wildfull.png",
             image1: "https://i.ibb.co/sbd9VRC/wild1.png",
@@ -29,6 +29,7 @@ const Allprojects = () => {
             dis2: "Google login features and user can post their product and update their stock ",
 
             title: "BOOK LOVER",
+            description: "Bookselling is the commercial trading of books which is the retail and distribution end of the publishing process. People who engage in bookselling are called booksellers, bookdealers, bookpeople, bookmen, or bookwomen.",
             link: "https://book-shop-f5159.web.app/",
             image: "https://i.ibb.co/JcnbRnq/1c666e8b-8a5d-417b-9a4b-742b9de9e6ad.png",
             image1: "https://i.ibb.co/kxnxjpZ/book1.png",
@@ -41,6 +42,7 @@ const Allprojects = () => {
             dis: " A computer tools shopping website with admin panel",
             dis1: " Support crud operations of many products",
             dis2: "Options for admin to add more services and functionalities",
+            description: "Tool organization can be extremely beneficial to any kind of facility. It may seem like a hassle, but it will help workplaces run more smoothly and ultimately affect the bottom line. The following are just top five reasons to keep an organized workbench, toolbox, or workspace:Reduce wasted time: When tools are not organized, workers can unintentionally waste time trying to locate them",
 
             title: "TOOLS WORLD  ",
             link: "https://tools-world-559cc.web.app/",
@@ -55,7 +57,7 @@ const Allprojects = () => {
 
     return (
         <div>
-            <section className='Portfolio top' id='portfolio'>
+            <section className='Portfolio top' id='projects'>
                 <div className='container'>
                     <div className='heading text-center '>
                         <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
