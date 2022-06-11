@@ -49,6 +49,10 @@ textarea {
         height: 40rem;
     }
 
+    .awsome {
+        flex-direction: column;
+    }
+
     .c-right .user {
         width: 16rem;
     }

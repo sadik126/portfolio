@@ -26,3 +26,19 @@
     justify-content: space-around;
 
 }
+
+@media screen and (max-width: 480px) {
+    .main {
+        gap: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+}
