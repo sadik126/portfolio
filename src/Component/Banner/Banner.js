@@ -29,16 +29,15 @@ const Banner = () => {
                 <button className='button hire'>Hire me</button>
 
                 <div className="icons" style={{ cursor: 'pointer' }}>
-                    <a href="">
+                    <a href="https://github.com/sadik126">
                         <img src={github} alt="" />
                     </a>
 
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/rayhan-sadik-8b3178199/">
                         <img src={linkdin} alt="" />
 
                     </a>
-                    <a href="
-                    ">
+                    <a href="https://www.instagram.com/myselfsaadik/">
                         <img src={instagram} alt="" />
 
                     </a>

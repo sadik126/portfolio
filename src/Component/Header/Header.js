@@ -31,6 +31,9 @@ const Header = () => {
                         <li class="nav-item me-3">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#projects" spy={true} smooth={true}>Projects</a>
                         </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#about" spy={true} smooth={true}>About</a>
+                        </li>
                         <li class="nav-item">
                             <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="contact" spy={true} smooth={true}><button className="button n-button">   Contact</button></Link>
                         </li>

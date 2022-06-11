@@ -7,7 +7,7 @@ const About = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className='container'>
+        <div className='container' id='about'>
             <div className="main">
                 <img className='aboutimg' src={pic} alt="" />
                 <div className="details">

@@ -51,7 +51,7 @@ const Reviews = () => {
                         <SwiperSlide key={index}>
                             <div className="testimonial">
                                 <img src={client.img} alt="" />
-                                <span>{client.review}</span>
+                                <span style={{ fontSize: '14px' }}>{client.review}</span>
                             </div>
                         </SwiperSlide>
                     );
