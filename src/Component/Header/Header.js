@@ -23,7 +23,7 @@ const Header = () => {
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item me-3 py-2">
-                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#service" >Service</a>
+                            <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="/blog" >Blogs</a>
                         </li>
                         <li class="nav-item me-3">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#experience" spy={true} smooth={true}>Experience</a>
