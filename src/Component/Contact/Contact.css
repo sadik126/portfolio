@@ -3,22 +3,29 @@
     display: flex;
     height: 80vh;
     margin-top: 4rem;
+    width: 100%;
     /* scroll */
     padding-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.w-left {
+    width: 50%;
 }
 
 .c-right {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     position: relative;
     flex: 1;
 }
 
 .c-right>form {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
+    align-items: center; */
 
 }
 
@@ -47,10 +54,6 @@ textarea {
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
-    }
-
-    .awsome {
-        flex-direction: column;
     }
 
     .c-right .user {

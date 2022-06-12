@@ -4,7 +4,7 @@ import heart from '../../img/heartemoji.png';
 import glasses from '../../img/glasses.png';
 import humble from '../../img/humble.png';
 import Servicecard from '../Servicecard/Servicecard';
-import resume from './Resume.pdf';
+import resume from './sadikresume.pdf';
 import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
 
