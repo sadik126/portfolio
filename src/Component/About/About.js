@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import './About.css';
 import pic from '../../img/aboutme.jpg';
 import { themeContext } from '../../Context';
+import { Link } from 'react-scroll';
 
 const About = () => {
     const theme = useContext(themeContext);
@@ -22,7 +23,7 @@ const About = () => {
 
                         Employers struggle to find qualified web developers, and the demand keeps growing. The average developer salary in the United States is $75,773—though that will vary depending on seniority and location.From self-driving cars to the "Internet of Things," developers are changing the way technology and the world works.
                         Web developers are empowered to make a difference.</p>
-                    <button className='button'>Lets talk</button>
+                    <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="contact" spy={true} smooth={true}><button className="button n-button">   Let's talk</button></Link>
 
                 </div>
 

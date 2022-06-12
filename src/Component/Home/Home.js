@@ -11,6 +11,7 @@ import Header from '../Header/Header';
 import Portfolio from '../Portfolio/Portfolio';
 import Projectsnumber from '../Projectsnumber/Projectsnumber';
 import Reviews from '../Reviews/Reviews';
+import Skill from '../Skill/Skill';
 import Works from '../Works/Works';
 
 
@@ -24,6 +25,7 @@ const Home = () => {
             <Features></Features>
             <Projectsnumber></Projectsnumber>
             <Works></Works>
+            <Skill></Skill>
             <Education></Education>
             <Portfolio></Portfolio>
             <Allprojects></Allprojects>
