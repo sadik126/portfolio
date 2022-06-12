@@ -43,7 +43,8 @@ const Reviews = () => {
             <Swiper
                 // install Swiper modules
                 modules={[Pagination]}
-                slidesPerView={1}
+
+                slidesPerView={3}
                 pagination={{ clickable: true }}
             >
                 {clients.map((client, index) => {

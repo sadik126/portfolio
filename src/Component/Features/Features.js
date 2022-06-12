@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import { themeContext } from '../../Context';
 import Card from './Card';
 import web from '../../img/coding.png';
+import design from '../../img/web design.png';
+import desktop from '../../img/desktop.png';
 
 
 import './Features.css';
@@ -12,19 +14,19 @@ const Features = () => {
     const data = [
         {
             id: 1,
-            image: "https://www.pinclipart.com/picdir/big/545-5450322_web-application-development-icon-web-and-app-development.png",
+            image: web,
             title: "Web Development",
             desc: "Web development services by a professional with 3 years of expertise. Professional UX/UI design and implementation of websites, web portals and other solutions.",
         },
         {
             id: 2,
-            image: "http://cdn.onlinewebfonts.com/svg/img_4579.png",
+            image: design,
             title: "Web Design",
             desc: "  Get online fast with our professional web design service. From simple to complex, our website design team will create, host, and update the site for you.",
         },
         {
             id: 3,
-            image: "https://elvento.com/wp-content/uploads/2020/01/Desktop-Application-Development.png",
+            image: desktop,
             title: "Desktop app development",
             desc: "Our desktop application development service is proficient in the latest frameworks and tech, and has the expertise to meet any technical challenges that may arise during implementation",
         }
@@ -38,7 +40,7 @@ const Features = () => {
                 <div className='container'>
                     <div className='heading'>
                         <h4>Features</h4>
-                        <h1>What I Do</h1>
+                        <h1 style={{ color: darkMode ? "white" : "" }}>What I Do</h1>
                     </div>
 
                     <div className='grid' style={{ color: darkMode ? "white" : "" }}>
