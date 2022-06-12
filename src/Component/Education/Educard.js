@@ -1,15 +1,13 @@
-import React, { useContext } from 'react';
-import { themeContext } from '../../Context';
+import React from 'react';
 
-const Card = (props) => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
-    const { title, year, rate, desc } = props.val
+const Educard = ({ props }) => {
+    const [title, year, rate, desc] = props.val
     return (
-        <>
+        <div>
+
             <div className='box btn_shadow'>
                 <div className='title_content d_flex'>
-                    <div className='title' style={{ color: darkMode ? "white" : "" }}>
+                    <div className='title'>
                         <h2>{title}</h2>
                         <span>{year}</span>
                     </div>
@@ -20,8 +18,9 @@ const Card = (props) => {
                 <hr />
                 <p>{desc}</p>
             </div>
-        </>
+
+        </div>
     );
 };
 
-export default Card;
+export default Educard;

@@ -4,6 +4,7 @@ import Allprojects from '../Allprojects/Allprojects';
 import Awsome from '../Awsome/Awsome';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
+import Education from '../Education/Education';
 import Features from '../Features/Features';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -23,6 +24,7 @@ const Home = () => {
             <Features></Features>
             <Projectsnumber></Projectsnumber>
             <Works></Works>
+            <Education></Education>
             <Portfolio></Portfolio>
             <Allprojects></Allprojects>
             <Reviews></Reviews>

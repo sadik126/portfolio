@@ -82,7 +82,7 @@ button {
 }
 
 .btn_shadow {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  background: linear-gradient(145deg, #e2e8ec00, #ffffff00);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 
