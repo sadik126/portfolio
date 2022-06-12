@@ -63,6 +63,15 @@
         gap: 5rem;
         height: 66rem;
         padding: 0;
+        width: 100%;
+    }
+
+    .awsome {
+        width: 100%;
+    }
+
+    .awsome> :nth-child(3) {
+        width: 100%;
     }
 
     .heart {

@@ -20,19 +20,19 @@ const Header = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0" >
-                        <li class="nav-item me-3">
+                        <li class="nav-item me-2">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} aria-current="page" href="/">Home</a>
                         </li>
-                        <li class="nav-item me-3 ">
+                        <li class="nav-item me-2 ">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="/blog" >Blogs</a>
                         </li>
-                        <li class="nav-item me-3">
+                        <li class="nav-item me-2">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#experience" spy={true} smooth={true}>Experience</a>
                         </li>
-                        <li class="nav-item me-3">
+                        <li class="nav-item me-2">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#projects" spy={true} smooth={true}>Projects</a>
                         </li>
-                        <li class="nav-item me-3">
+                        <li class="nav-item me-2">
                             <a class="nav-link" style={{ color: darkMode ? "white" : "" }} href="#about" spy={true} smooth={true}>About</a>
                         </li>
                         <li class="nav-item">
