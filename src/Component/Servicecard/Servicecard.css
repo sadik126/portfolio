@@ -27,13 +27,20 @@
 }
 
 .c-button {
-    background: #FFFFFF;
+    background: #ffffff00;
     box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
     border: none;
     padding: 10px;
     font-size: 16px;
     color: #5290FD;
+}
+
+.c-button a {
+    color: azure;
+    text-transform: capitalize;
+
+
 }
 
 .cards {

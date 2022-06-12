@@ -1,7 +1,7 @@
 .floating {
     justify-content: space-around;
     display: flex;
-    background-color: #fffdfc;
+    background-color: #fffdfc1b;
 
     box-shadow: var(--boxShadow);
     border-radius: 17px;

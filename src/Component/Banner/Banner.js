@@ -12,6 +12,12 @@ import crown from '../../img/crown.png';
 import Floating from '../Floating/Floating';
 import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
+import react from '../../img/react1.png';
+import node from '../../img/node.png';
+import mongo from '../../img/mongo.png';
+import html from '../../img/html.png';
+import css from '../../img/css.png';
+import js from '../../img/js.png';
 
 const Banner = () => {
     const transition = { duration: 2, type: 'spring' }
@@ -61,14 +67,14 @@ const Banner = () => {
                     whileInView={{ left: '68%' }}
                     transition={transition}
                     className='developer' >
-                    <Floating img={crown} txt1='web' txt2='developer'></Floating>
+                    <Floating img={react} img1={node} img2={mongo} txt1='web' txt2='developer'></Floating>
                 </motion.div>
                 <motion.div
                     initial={{ left: "9rem", top: "18rem" }}
                     whileInView={{ left: "0rem" }}
                     transition={transition}
                     style={{ top: '18rem', left: '0rem' }} >
-                    <Floating img={thumbup} txt1='best' txt2='designer'></Floating>
+                    <Floating img={html} img1={css} img2={js} txt1='best' txt2='designer'></Floating>
                 </motion.div>
 
                 {/* blur div  */}

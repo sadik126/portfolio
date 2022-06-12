@@ -37,7 +37,7 @@ const Awsome = () => {
                     initial={{ left: '25%' }}
                     transition={transition}
                     className='heart' style={{ left: '12rem' }}>
-                    <Servicecard emoji={heart} heading={'Design'} detail={'Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd'}></Servicecard>
+                    <Servicecard emoji={heart} link={'https://www.websitebuilderexpert.com/designing-websites/'} heading={'Design'} detail={'Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd'}></Servicecard>
                 </motion.div>
 
                 <motion.div
@@ -45,7 +45,7 @@ const Awsome = () => {
                     whileInView={{ left: "-4rem" }}
                     transition={transition}
                     style={{ left: '-4rem', top: '12rem' }}>
-                    <Servicecard emoji={glasses} heading={'Web Development'} detail={'HTML , CSS, javascript , react , php , node js ,express js , mongodb'}></Servicecard>
+                    <Servicecard emoji={glasses} link={'https://www.geeksforgeeks.org/web-development/'} heading={'Web Development'} detail={'HTML , CSS, javascript , react , php , node js ,express js , mongodb'}></Servicecard>
                 </motion.div>
 
                 <motion.div
@@ -53,7 +53,7 @@ const Awsome = () => {
                     whileInView={{ left: "12rem" }}
                     transition={transition}
                     style={{ top: "19rem", left: "19rem" }}>
-                    <Servicecard emoji={humble} heading={'UI/UX Design'} detail={'Lorem ispum dummy text are usually use in section where we need some random text'}></Servicecard>
+                    <Servicecard emoji={humble} link={'https://www.ironhack.com/en/ux-ui-design/what-is-ux-ui-design-and-what-does-a-ux-ui-designer-do'} heading={'UI/UX Design'} detail={'Lorem ispum dummy text are usually use in section where we need some random text'}></Servicecard>
                 </motion.div>
 
                 <div
