@@ -10,6 +10,7 @@ import mobile from '../../img/mobile bazar.PNG';
 import ucl from '../../img/ucl.PNG'
 import "swiper/css";
 import { themeContext } from '../../Context';
+import mission from '../../img/mission.PNG';
 
 const Portfolio = () => {
     const theme = useContext(themeContext);
@@ -45,6 +46,9 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={ucl} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={mission} alt="" />
                 </SwiperSlide>
             </Swiper>
 

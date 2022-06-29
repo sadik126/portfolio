@@ -1,0 +1,14 @@
+.skills div {
+    width: 50%;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .skills div {
+        width: 100%;
+    }
+
+}
