@@ -3,13 +3,52 @@
 
 ul>li {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
+
+}
+
+.navbar .navbar-nav .nav-link {
+    transition: 0.8s;
 
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    cursor: pointer;
+
     background-color: rgb(180, 59, 59);
     color: black;
+    border-radius: 15px;
+    cursor: pointer !important;
+
+
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #fe8c00 0%, #f83600 51%, #fe8c00 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
     border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad:hover,
+.btn-grad:focus {
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }

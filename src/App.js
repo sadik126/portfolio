@@ -14,14 +14,15 @@ import Detail from './Component/Detail/Detail';
 import Blogs from './Component/Blogs/Blogs';
 
 function App() {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+  // const theme = useContext(themeContext);
+  // const darkMode = theme.state.darkMode;
   return (
     <div className='App'
-      style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
-      }}>
+    // style={{
+    //   background: darkMode ? "black" : "",
+    //   color: darkMode ? "white" : "",
+    // }}
+    >
 
       <Routes>
         <Route path='/' element={<Home></Home>}>

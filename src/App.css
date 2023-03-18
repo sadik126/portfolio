@@ -25,14 +25,16 @@
   color: white;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
+
 }
 
-.button:hover {
+/* .button:hover {
   background: white;
   cursor: pointer;
   border: 1px solid var(--orange);
   color: var(--orange);
-}
+  transition: 1.8s;
+} */
 
 .container {
   /* max-width: 95%; */
