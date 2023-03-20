@@ -4,19 +4,19 @@ import heart from '../../img/heartemoji.png';
 import glasses from '../../img/glasses.png';
 import humble from '../../img/humble.png';
 import Servicecard from '../Servicecard/Servicecard';
-import resume from './sadikresume.pdf';
+import resume from './Rayhansadikresumeforjob.pdf';
 import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
 
 const Awsome = () => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     const transition = { duration: 3, type: 'spring' }
     return (
         <div className='services' id='service'>
             {/* left */}
             <div className="awsome">
-                <span style={{ color: darkMode ? "white" : "" }}>My Awesome </span>
+                <span style={{ color: `var(--body_color)` }}>My Awesome </span>
                 <span>Services</span>
                 <span>We build web apps for efficient management of different business activities. We apply smart automation to streamline workflows and integrate corporate systems together for coherent operation. Check our web application development services</span>
                 <br />
@@ -58,7 +58,7 @@ const Awsome = () => {
 
                 <div
                     className="blur s-blur4"
-                    style={{ background: "#94c994", left: "14rem", top: "8rem" }}
+                    style={{ background: "#71bb719c", left: "14rem", top: "8rem" }}
                 ></div>
 
             </div>

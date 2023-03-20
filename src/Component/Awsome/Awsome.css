@@ -28,7 +28,7 @@
 }
 
 .awsome> :nth-child(3) {
-    color: var(--gray);
+    color: var(--body_color);
     font-size: 14px;
     margin-top: 1rem;
 }

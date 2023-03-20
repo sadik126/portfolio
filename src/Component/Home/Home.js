@@ -19,9 +19,9 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            {/* <Banner></Banner>
+            <Banner></Banner>
             <Awsome></Awsome>
-            <About></About>
+            {/* <About></About>
             <Features></Features>
             <Projectsnumber></Projectsnumber>
             <Works></Works>

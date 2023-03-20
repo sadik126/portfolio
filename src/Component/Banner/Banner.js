@@ -21,13 +21,13 @@ import js from '../../img/js.png';
 
 const Banner = () => {
     const transition = { duration: 2, type: 'spring' }
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     return (
         <div className='intro'>
             <div className="left">
                 <div className="name">
-                    <span style={{ color: darkMode ? "white" : "" }}>Hi , I Am </span>
+                    <span style={{ color: `var(--body_color)` }}>Hi , I Am </span>
                     <span>Rayhan sadik</span>
                     <span> Frontend Developer with high level of experience in web designing
                         and development, producting the Quality work</span>

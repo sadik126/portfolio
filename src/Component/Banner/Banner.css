@@ -36,14 +36,14 @@
 }
 
 .name> :nth-child(3) {
-    color: gray;
+    color: var(--body_color);
     font-weight: 100;
     font-size: 14px;
     margin-top: 10px;
 }
 
 .hire {
-    width: 6rem;
+    width: 9rem;
     font: 2rem;
 }
 
@@ -98,7 +98,7 @@
     border-radius: 50%;
     background: #edd0ff;
     filter: blur(212px);
-    z-index: -9;
+    z-index: 0;
     top: -18%;
     left: 56%;
     filter: blur(72px);

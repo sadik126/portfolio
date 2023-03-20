@@ -13,11 +13,11 @@
     border: 7px solid rgb(217, 120, 79);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
-    padding: 0px 26px 2rem 26px;
+    /* padding: 0px 26px 2rem 26px; */
 }
 
 .card span:nth-of-type(2) {
-    color: var(--gray);
+    color: var(--body_color);
     font-size: 12px;
 }
 
