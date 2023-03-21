@@ -9,12 +9,12 @@ import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
 
 const Works = () => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     return (
-        <div className='works'>
+        <div className='works' style={{ marginTop: '15rem' }}>
             <div className="awsome">
-                <span style={{ color: darkMode ? 'white' : '' }}>Works for All these </span>
+                <span style={{ color: 'var(--body_color)' }}>Works for All these </span>
                 <span>Brands & Clients</span>
                 <span>Branding is just as important for your clients as it is for yourself. For first time freelancers,
                     <br />
@@ -31,7 +31,7 @@ const Works = () => {
 
 
 
-                <div className="blur s-blur3" style={{ background: "#ABF1FF94", left: "-18rem", top: "13rem" }}></div>
+                <div className="blur s-blur3" style={{ background: "#673ab759", left: "-18rem", top: "13rem" }}></div>
 
             </div>
 

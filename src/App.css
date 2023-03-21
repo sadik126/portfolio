@@ -86,7 +86,7 @@ button {
 
 .btn_shadow {
   background: linear-gradient(145deg, #e2e8ec00, #ffffff00);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow: 4px 4px 8px var(--body_color), -4px -4px 8px var(--body_color);
 }
 
 .btn_shadow:hover {
@@ -97,7 +97,7 @@ button {
 
 .box_shodow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow: 4px 4px 8px var(--body_color), -4px -4px 8px var(--body_color);
   border-radius: 10px;
 }
 

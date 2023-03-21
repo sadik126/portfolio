@@ -7,8 +7,8 @@ import ResumeApi from "./Resumeapi"
 
 
 const Education = () => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     const [education, setEducation] = useState([])
 
     useEffect(() => {
@@ -75,14 +75,14 @@ const Education = () => {
                 <div className='container top'>
                     <div className='heading text-center'>
                         <h4>THIS IS MY EDUCATIONAL BACKGROUND</h4>
-                        <h1 style={{ color: darkMode ? "white" : "" }}>My Resume</h1>
+                        <h1 style={{ color: "var(--body_color)" }}>My Resume</h1>
                     </div>
 
                     <div className='content-section mtop d_flex'>
                         <div className='left'>
-                            <div className='heading' style={{ color: darkMode ? "white" : "" }}>
-                                <h4>2007-2010</h4>
-                                <h1 style={{ color: darkMode ? "white" : "" }}>Education Quality</h1>
+                            <div className='heading' style={{ color: "var(--body_color)" }}>
+                                <h4>2012-2022</h4>
+                                <h1 style={{ color: "var(--body_color)" }}>Education Quality</h1>
                             </div>
 
                             <div className='content'>
@@ -117,8 +117,8 @@ const Education = () => {
                         </div>
                         <div className='left'>
                             <div className='heading' >
-                                <h4 >2007-2010</h4>
-                                <h1 style={{ color: darkMode ? "white" : "" }}>Job Experience</h1>
+                                <h4 >2021-2022</h4>
+                                <h1 style={{ color: "var(--body_color)" }}>Job Experience</h1>
                             </div>
 
                             <div className='content'>

@@ -13,8 +13,8 @@
 
 .Resume hr {
     margin: 30px 0 30px 0;
-    border: 1px solid #e3e9ed;
-    background-color: #e3e9ed;
+    border: 1px solid var(--body_color);
+    background-color: var(--body_color);
 }
 
 .Resume .rate .btn_shadow {
@@ -45,11 +45,11 @@
 .Resume .box:hover .btn_shadow {
     background: #ff3a75;
     box-shadow: none;
-    color: white;
+    color: var(--body_color);
 }
 
 .Resume .box:hover p {
-    color: white;
+    color: var(--body_color);
 }
 
 .Resume .content-section {
@@ -67,7 +67,7 @@
     left: 0;
     height: 118vh;
     width: 5px;
-    background: #d9dee2;
+    background: var(--body_color);
     z-index: -2;
 }
 
@@ -78,7 +78,7 @@
     left: -8%;
     height: 5px;
     width: 50px;
-    background: #d9dee2;
+    background: var(--body_color);
 }
 
 .Resume .box::before {
@@ -88,8 +88,8 @@
     left: -10%;
     height: 10px;
     width: 10px;
-    background: #fff;
-    border: 5px solid #d9dee2;
+    background: var(--body_background);
+    border: 5px solid var(--body_color);
     border-radius: 50%;
     z-index: 5;
     transition: 0.5s;

@@ -24,10 +24,10 @@ const Home = () => {
             <About></About>
             <Features></Features>
             <Projectsnumber></Projectsnumber>
-            {/* <Works></Works>
+            <Works></Works>
             <Skill></Skill>
             <Education></Education>
-            <Portfolio></Portfolio>
+            {/* <Portfolio></Portfolio>
             <Allprojects></Allprojects>
             <Reviews></Reviews>
             <Contact></Contact>

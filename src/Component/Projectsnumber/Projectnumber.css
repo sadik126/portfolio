@@ -5,6 +5,7 @@
     gap: 5rem;
     height: 30vh;
     margin-bottom: 8rem;
+    position: relative;
     /* darkmode */
     color: var(--body_color);
     justify-content: space-around;
@@ -19,7 +20,7 @@
 .circle {
     width: 8rem;
     height: 8rem;
-    background: var(--body_background);
+    background: var(--body_color);
     border-radius: 100%;
     position: relative;
     display: flex;
@@ -28,6 +29,11 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
+}
+
+.s-blur8 {
+    top: 15rem;
+    left: 52rem;
 }
 
 .circle::before {
@@ -63,5 +69,6 @@
 @media screen and (max-width: 480px) {
     .experience {
         transform: scale(0.7);
+        flex-direction: column;
     }
 }
