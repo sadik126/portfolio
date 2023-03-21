@@ -38,7 +38,9 @@ const Features = () => {
         <>
             <section className='features top' id='features'>
                 <div className='container'>
+                    <div className="blur s-blur7" style={{ background: "#abffd86b", left: "7rem", top: "1rem" }}></div>
                     <div className='heading'>
+
                         <h4>Features</h4>
                         <h1 style={{ color: `var(--body_color)` }}>What I Do</h1>
                     </div>

@@ -11,6 +11,11 @@
     transition: 0.5s;
 }
 
+.s-blur7 {
+    top: 15rem;
+    left: 52rem;
+}
+
 .features .box i {
     font-size: 30px;
     margin-top: 20px;
