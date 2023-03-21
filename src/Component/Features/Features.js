@@ -9,8 +9,8 @@ import desktop from '../../img/desktop.png';
 import './Features.css';
 
 const Features = () => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     const data = [
         {
             id: 1,
@@ -40,10 +40,10 @@ const Features = () => {
                 <div className='container'>
                     <div className='heading'>
                         <h4>Features</h4>
-                        <h1 style={{ color: darkMode ? "white" : "" }}>What I Do</h1>
+                        <h1 style={{ color: `var(--body_color)` }}>What I Do</h1>
                     </div>
 
-                    <div className='grid' style={{ color: darkMode ? "white" : "" }}>
+                    <div className='grid' style={{ color: `var(--body_color)` }}>
                         {data.map((val, index) => {
                             return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
                         })}

@@ -5,16 +5,18 @@ import { themeContext } from '../../Context';
 import { Link } from 'react-scroll';
 
 const About = () => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     return (
         <div className='container' id='about'>
             <div className="main">
                 <img className='aboutimg' src={pic} alt="" />
+                <div className="blur s-blur5" style={{ background: "#c4abff6b", left: "-8rem", top: "3rem" }}></div>
                 <div className="details">
+                    <div className="blur s-blur6" style={{ background: "#feffab6b", left: "55rem", top: "17rem" }}></div>
                     <h1 style={{ color: 'orangered' }}>About me</h1>
                     <h5>Developer and designer</h5>
-                    <p style={{ color: darkMode ? "#a9a5a5" : "" }}>Hello I am Rayhan sadik . I considered myself as a full stack web developer .
+                    <p style={{ color: `var(--body_color)` }}>Hello I am Rayhan sadik . I considered myself as a full stack web developer .
 
                         I developed so many web related projects . In my university , I developed an ecommerce site which named is egrocery . also, I worked in tools world which is tools selling website . And I also make a book shop and a Photography website for professionals . html , css , javascript , php this type of scripting language makes comfort in web development . I also worked with these type of frameworks like bootsrap , tailwind css , react , express js , node js . I also used NonSQL DATABASE like mongodb and SQL DATABASE like MYSQL.
 
@@ -23,7 +25,7 @@ const About = () => {
 
                         Employers struggle to find qualified web developers, and the demand keeps growing. The average developer salary in the United States is $75,773—though that will vary depending on seniority and location.From self-driving cars to the "Internet of Things," developers are changing the way technology and the world works.
                         Web developers are empowered to make a difference.</p>
-                    <Link class="nav-link" style={{ color: darkMode ? "white" : "" }} to="contact" spy={true} smooth={true}><button className="button n-button">   Let's talk</button></Link>
+                    <Link class="nav-link" style={{ color: `var(--body_color)` }} to="contact" spy={true} smooth={true}><button className="button n-button">   Let's talk</button></Link>
 
                 </div>
 

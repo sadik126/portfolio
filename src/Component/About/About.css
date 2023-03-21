@@ -1,6 +1,7 @@
 .container {
     width: 100%;
     padding: 78px 0px;
+    position: relative;
 }
 
 .aboutimg {
@@ -15,6 +16,29 @@
 
 .details p {
     font-size: 12px;
+}
+
+.s-blur5 {
+    top: 13rem;
+    left: -18rem;
+}
+
+.s-blur6 {
+    top: 15rem;
+    left: 52rem;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: 0;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
 }
 
 .main {

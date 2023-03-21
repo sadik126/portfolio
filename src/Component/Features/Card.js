@@ -3,8 +3,8 @@ import { themeContext } from '../../Context';
 import arrow from '../../img/coding.png'
 
 const Card = (props) => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     return (
         <>
             <div className='box btn_shadow mb-5 d-flex flex-column'  >

@@ -6,7 +6,8 @@
     height: 30vh;
     margin-bottom: 8rem;
     /* darkmode */
-    color: var(--black);
+    color: var(--body_color);
+    justify-content: space-around;
 }
 
 .achivement {
@@ -16,9 +17,9 @@
 }
 
 .circle {
-    width: 4rem;
-    height: 4rem;
-    background: white;
+    width: 8rem;
+    height: 8rem;
+    background: var(--body_background);
     border-radius: 100%;
     position: relative;
     display: flex;

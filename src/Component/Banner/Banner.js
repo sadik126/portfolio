@@ -78,7 +78,7 @@ const Banner = () => {
                 </motion.div>
 
                 {/* blur div  */}
-                <div className='blur' style={{ background: "#c7af85" }}></div>
+                <div className='blur' style={{ background: "#c79d856e" }}></div>
                 <div
                     className="blur"
                     style={{

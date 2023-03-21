@@ -137,7 +137,7 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 19px;
+  grid-gap: 52px;
   width: 100%;
 }
 

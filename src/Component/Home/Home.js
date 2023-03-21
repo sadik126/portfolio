@@ -21,10 +21,10 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Awsome></Awsome>
-            {/* <About></About>
+            <About></About>
             <Features></Features>
             <Projectsnumber></Projectsnumber>
-            <Works></Works>
+            {/* <Works></Works>
             <Skill></Skill>
             <Education></Education>
             <Portfolio></Portfolio>
