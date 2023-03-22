@@ -80,7 +80,7 @@ const Allprojects = () => {
                 <div className='container'>
                     <div className='heading text-center '>
                         <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-                        <h1 style={{ color: "var(--black)" }}>My Projects</h1>
+                        <h1 style={{ color: "var(--body_color)" }}>My Projects</h1>
                     </div>
 
                     <div className='content grid'>

@@ -29,9 +29,9 @@ const Home = () => {
             <Education></Education>
             <Portfolio></Portfolio>
             <Allprojects></Allprojects>
-            {/* <Reviews></Reviews>
+            <Reviews></Reviews>
             <Contact></Contact>
-            <Footer></Footer> */}
+            <Footer></Footer>
 
         </div>
     );

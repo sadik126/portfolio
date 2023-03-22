@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { themeContext } from '../../Context';
 import Toggle from '../Toggle/Toggle';
 import './Header.css';
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import s from '../../img/s..png'
 import DarkMode from '../Darkmode/DarkMode';
 
@@ -24,10 +24,10 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0" >
                         <li class="nav-item me-2">
-                            <Link activeClass="active" class="nav-link2" aria-current="page" href="/">Home</Link>
+                            <Link activeClass="active" class="nav-link2" aria-current="page" to="/">Home</Link>
                         </li>
                         <li class="nav-item me-2 ">
-                            <a class="nav-link2" href="/blog" >Blogs</a>
+                            <Link class="nav-link2" to="/blog" >Blogs</Link>
                         </li>
                         <li class="nav-item me-2">
                             <a class="nav-link2" href="#experience" spy={true} smooth={true}>Experience</a>
