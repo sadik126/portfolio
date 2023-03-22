@@ -30,13 +30,13 @@ const Header = () => {
                             <Link class="nav-link2" to="/blog" >Blogs</Link>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link2" href="#experience" spy={true} smooth={true}>Experience</a>
+                            <Link class="nav-link2" to="/experience" spy={true} smooth={true}>Experience</Link>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link2" href="#projects" spy={true} smooth={true}>Projects</a>
+                            <Link class="nav-link2" to="/projects" spy={true} smooth={true}>Projects</Link>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link2" href="#about" spy={true} smooth={true}>About</a>
+                            <Link class="nav-link2" to="/about" spy={true} smooth={true}>About</Link>
                         </li>
                         <li class="nav-item1">
                             <Link class="nav-link1" to="contact" spy={true} smooth={true}><button className="button n-button btn-grad">Contact</button></Link>

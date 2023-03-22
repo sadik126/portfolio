@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import Modal from 'react-modal';
+import Swiper from "swiper";
+import { SwiperSlide } from "swiper/react";
 import Loading from "../Loading/Loading";
-
+import { Pagination } from "swiper";
 const Card = (props) => {
     if (props) {
         <Loading></Loading>
@@ -51,9 +53,12 @@ const Card = (props) => {
     return (
         <>
             <div className='box btn_shadow '>
+
                 <div className='img'>
                     <img src={props.image} alt='' onClick={toggleModal} />
                 </div>
+
+
                 <div className='category d_flex'>
                     <span onClick={toggleModal}>{props.category}</span>
                     <label style={{ marginLeft: '120px' }}>
@@ -117,6 +122,7 @@ const Card = (props) => {
 
                 <div className="d-flex justify-content-center align-items-center" style={{ width: '100%' }}>
                     <div className="container" style={{ width: '50%' }}>
+
                         <>
                             <div className='' style={{ width: '100%' }}>
                                 {/* <img src={props.image} className="img-fluid" width='200px' alt='' onClick={toggleModal} /> */}

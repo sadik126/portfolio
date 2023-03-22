@@ -10,32 +10,32 @@ const Allprojects = () => {
     const Portfolio_data = [
         {
             id: 1,
-            category: "Photography website",
+            category: "All out ecommerce",
             description: 'It is not so easy to become photographer. Simply getting and SLR in hand don’t make you a good photographer. You need to have those skills and creativity to capture the best of candid moments. The trickiest photographer is wildlife. Though it is so much in demand, there are so many advantages and disadvantages of wildlife photography',
             dis: " A photography website with multiple use   ",
             dis1: " Support crud operations of many service ",
             dis2: "User can book their service",
 
-            title: "WILD STUDIO ",
+            title: "All out ecommerce ",
             link: "https://wildstudio-1db3d.web.app/",
 
 
-            image: "https://i.ibb.co/R4bbRvN/wildfull.png",
+            image: "https://i.ibb.co/NtNpk3q/allout-screenshot.png",
             image1: "https://i.ibb.co/sbd9VRC/wild1.png",
             image2: "https://i.ibb.co/9wK6m5D/wild2.png",
             image3: "https://i.ibb.co/tsY68tk/wild3.png"
         },
         {
             id: 2,
-            category: "Book Shop website",
+            category: "Teeth Doctor website",
             dis: " A book shop website with multiple users for selling book ",
             dis1: "Support crud operations of many products",
             dis2: "Google login features and user can post their product and update their stock ",
 
-            title: "BOOK LOVER",
+            title: "DOCTOR PORTAL",
             description: "Bookselling is the commercial trading of books which is the retail and distribution end of the publishing process. People who engage in bookselling are called booksellers, bookdealers, bookpeople, bookmen, or bookwomen.",
-            link: "https://book-shop-f5159.web.app/",
-            image: "https://i.ibb.co/JcnbRnq/1c666e8b-8a5d-417b-9a4b-742b9de9e6ad.png",
+            link: "https://doctors-portal-36758.web.app/",
+            image: "https://i.ibb.co/3dp3fSw/doctors-screenshot.png",
             image1: "https://i.ibb.co/kxnxjpZ/book1.png",
             image2: "https://i.ibb.co/9TwFJFd/book2.png",
             image3: "https://i.ibb.co/dpnHVJM/book3.png"
@@ -48,9 +48,9 @@ const Allprojects = () => {
             dis2: "Options for admin to add more services and functionalities",
             description: "Tool organization can be extremely beneficial to any kind of facility. It may seem like a hassle, but it will help workplaces run more smoothly and ultimately affect the bottom line. The following are just top five reasons to keep an organized workbench, toolbox, or workspace:Reduce wasted time: When tools are not organized, workers can unintentionally waste time trying to locate them",
 
-            title: "TOOLS WORLD  ",
+            title: "TOOLS WORLD",
             link: "https://tools-world-559cc.web.app/",
-            image: "https://i.ibb.co/hXqg44X/React-App.png",
+            image: "https://i.ibb.co/tzj4wY8/tools-world-screenshot.png",
             image1: "https://i.ibb.co/BLm5rzM/toolsworld1.png",
             image2: "https://i.ibb.co/1QHkZsP/tools-dashboard.png",
             image3: "https://i.ibb.co/tQxr5CF/login.png"
@@ -89,23 +89,6 @@ const Allprojects = () => {
                             return <Card key={index} description={value.description} image={value.image} image3={value.image3} image2={value.image2} image1={value.image1} link={value.link} dis={value.dis} dis1={value.dis1} dis2={value.dis2} category={value.category} totalLike={value.totalLike} title={value.title} />
                         })}
 
-                        {/*<div className='box btn_shadow '>
-              <div className='img'>
-                  <img src='https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg' alt='' />
-              </div>
-              <div className='category d_flex'>
-                  <span>Development</span>
-                  <label>
-                    <i className='far fa-heart'></i> 360
-                  </label>
-              </div>
-              <div className='title'>
-                  <h2>Mobile app landing design & Services</h2>
-                <a href='' className='arrow'>
-                  <i class='fas fa-arrow-right'></i>
-                </a>
-              </div>
-            </div>*/}
                     </div>
                 </div>
             </section>
