@@ -5,8 +5,8 @@ import { themeContext } from '../../Context';
 import Loading from '../Loading/Loading';
 
 const Allprojects = () => {
-    const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(themeContext);
+    // const darkMode = theme.state.darkMode;
     const Portfolio_data = [
         {
             id: 1,
@@ -80,7 +80,7 @@ const Allprojects = () => {
                 <div className='container'>
                     <div className='heading text-center '>
                         <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-                        <h1 style={{ color: darkMode ? "white" : "" }}>My Projects</h1>
+                        <h1 style={{ color: "var(--black)" }}>My Projects</h1>
                     </div>
 
                     <div className='content grid'>

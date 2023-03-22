@@ -5,7 +5,13 @@
     flex-direction: column;
     height: 70vh;
     margin-top: 7rem;
+    position: relative;
 
+}
+
+.s-blur9 {
+    top: 15rem;
+    left: 52rem;
 }
 
 .portfolio span:nth-of-type(1) {

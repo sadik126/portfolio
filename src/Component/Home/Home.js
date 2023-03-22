@@ -27,9 +27,9 @@ const Home = () => {
             <Works></Works>
             <Skill></Skill>
             <Education></Education>
-            {/* <Portfolio></Portfolio>
+            <Portfolio></Portfolio>
             <Allprojects></Allprojects>
-            <Reviews></Reviews>
+            {/* <Reviews></Reviews>
             <Contact></Contact>
             <Footer></Footer> */}
 
